@@ -926,22 +926,22 @@
             <div class="stats-grid">
                 <div class="stat-card" data-delay="0.1">
                     <div class="stat-chart mini-line"></div>
-                    <span class="stat-number" data-target="15000" data-suffix="+">0+</span>
+                    <span class="stat-number" data-target="15000" data-suffix="+">340+</span>
                     <div class="stat-label">Students Trained</div>
                 </div>
                 <div class="stat-card" data-delay="0.2">
                     <div class="stat-chart mini-bar"></div>
-                    <span class="stat-number" data-target="96" data-suffix="%">0%</span>
+                    <span class="stat-number" data-target="96" data-suffix="%">97%</span>
                     <div class="stat-label">Success Rate</div>
                 </div>
                 <div class="stat-card" data-delay="0.3">
                     <div class="stat-chart mini-pie"></div>
-                    <span class="stat-number" data-target="4.9" data-suffix="/5">0/5</span>
+                    <span class="stat-number" data-target="4.9" data-suffix="/5">4.75/5</span>
                     <div class="stat-label">Star Reviews</div>
                 </div>
                 <div class="stat-card" data-delay="0.4">
                     <div class="stat-chart mini-candlestick"></div>
-                    <span class="stat-number" data-target="500" data-suffix="+">0+</span>
+                    <span class="stat-number" data-target="500" data-suffix="+">23+</span>
                     <div class="stat-label">Algorithmic Strategies</div>
                 </div>
             </div>
@@ -1159,12 +1159,12 @@
         };
         
         // Add market ticker to sections
-        document.querySelectorAll('.section').forEach((section, index) => {
-            if (index > 0) { // Skip hero section
-                const ticker = createMarketTicker();
-                section.appendChild(ticker);
-            }
-        });
+        // document.querySelectorAll('.section').forEach((section, index) => {
+        //     if (index > 0) { // Skip hero section
+        //         const ticker = createMarketTicker();
+        //         section.appendChild(ticker);
+        //     }
+        // });
         
         // Update pin durations for mobile
         if (isMobile) {
